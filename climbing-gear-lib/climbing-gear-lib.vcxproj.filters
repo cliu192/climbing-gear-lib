@@ -18,9 +18,15 @@
     <ClCompile Include="Gear.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
