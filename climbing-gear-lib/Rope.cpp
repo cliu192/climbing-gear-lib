@@ -8,6 +8,7 @@ Rope::Rope(std::string manufacturerName, std::string productName, int lengthInMe
 
 std::string Rope::getDescriptionImpl()
 {
-	std::string description = ":: length : " + std::to_string(m_lengthInMeters) + "meters";
+	std::string description = ":: length : " + std::to_string(m_lengthInMeters) + " meters";
 	return description;
 }
+
