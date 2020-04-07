@@ -10,7 +10,7 @@ std::string Gear::getDescription()
 {
 	std::string description = 
 		m_manufacturerName + " " + 
-		m_productName + " " + 
+		m_productName + " " +
 		getDescriptionImpl();
 	return description;
 }

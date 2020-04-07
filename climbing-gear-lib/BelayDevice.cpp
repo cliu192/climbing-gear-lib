@@ -8,7 +8,7 @@ BelayDevice::BelayDevice(std::string manufacturerName, std::string productName, 
 
 std::string BelayDevice::getDescriptionImpl()
 {
-	std::string description = " :: auto-locking : ";
+	std::string description = ":: auto-locking : ";
 	description += (m_isAutolocking ? "true" : "false");
 	return description;
 }
