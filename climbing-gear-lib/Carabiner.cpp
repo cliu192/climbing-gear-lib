@@ -8,7 +8,7 @@ Carabiner::Carabiner(std::string manufacturerName, std::string productName, bool
 
 std::string Carabiner::getDescriptionImpl()
 {
-	std::string description = ":: auto-locking : ";
+	std::string description = ":: locking : ";
 	description += (m_isLocking ? "true" : "false");
 	return description;
 }
