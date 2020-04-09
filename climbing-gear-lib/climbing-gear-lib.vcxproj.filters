@@ -36,6 +36,12 @@
     <ClCompile Include="Shoes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quickdraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gear.h">
@@ -57,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Shoes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quickdraw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

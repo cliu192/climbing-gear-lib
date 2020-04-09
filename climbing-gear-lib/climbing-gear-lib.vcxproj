@@ -143,8 +143,10 @@
     <ClCompile Include="Carabiner.cpp" />
     <ClCompile Include="Gear.cpp" />
     <ClCompile Include="Nut.cpp" />
+    <ClCompile Include="Quickdraw.cpp" />
     <ClCompile Include="Rope.cpp" />
     <ClCompile Include="Shoes.cpp" />
+    <ClCompile Include="Sling.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BelayDevice.h" />
@@ -152,8 +154,10 @@
     <ClInclude Include="Carabiner.h" />
     <ClInclude Include="Gear.h" />
     <ClInclude Include="Nut.h" />
+    <ClInclude Include="Quickdraw.h" />
     <ClInclude Include="Rope.h" />
     <ClInclude Include="Shoes.h" />
+    <ClInclude Include="Sling.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
