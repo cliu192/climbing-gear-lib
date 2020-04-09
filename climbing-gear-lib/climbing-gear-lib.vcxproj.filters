@@ -42,6 +42,9 @@
     <ClCompile Include="Quickdraw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GearInventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gear.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Quickdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GearInventory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
