@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "climbing-gear-lib", "climbing-gear-lib\climbing-gear-lib.vcxproj", "{9964BACA-A783-4449-823B-92F69E8EFA0C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "climbing-gear-test", "climbing-gear-test\climbing-gear-test.vcxproj", "{80835512-92E5-4740-B8BB-70FDD685E2E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{9964BACA-A783-4449-823B-92F69E8EFA0C}.Release|x64.Build.0 = Release|x64
 		{9964BACA-A783-4449-823B-92F69E8EFA0C}.Release|x86.ActiveCfg = Release|Win32
 		{9964BACA-A783-4449-823B-92F69E8EFA0C}.Release|x86.Build.0 = Release|Win32
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Debug|x64.ActiveCfg = Debug|x64
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Debug|x64.Build.0 = Debug|x64
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Debug|x86.Build.0 = Debug|Win32
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Release|x64.ActiveCfg = Release|x64
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Release|x64.Build.0 = Release|x64
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Release|x86.ActiveCfg = Release|Win32
+		{80835512-92E5-4740-B8BB-70FDD685E2E6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
