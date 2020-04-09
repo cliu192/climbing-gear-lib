@@ -8,6 +8,6 @@ public:
 	virtual ~Carabiner() = default;
 private:
 	bool m_isLocking;
-	virtual std::string getDescriptionImpl();
+	virtual std::string getDescriptionImpl() override;
 };
 

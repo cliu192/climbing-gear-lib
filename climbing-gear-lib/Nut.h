@@ -8,6 +8,6 @@ public:
 	virtual ~Nut() = default;
 private:
 	int m_size;
-	virtual std::string getDescriptionImpl();
+	virtual std::string getDescriptionImpl() override;
 };
 

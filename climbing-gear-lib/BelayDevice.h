@@ -8,6 +8,6 @@ public:
 	virtual ~BelayDevice() = default;
 private:
 	bool m_isAutolocking;
-	virtual std::string getDescriptionImpl();
+	virtual std::string getDescriptionImpl() override;
 };
 
