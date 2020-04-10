@@ -26,7 +26,7 @@ protected:
     std::string m_manufacturerName = "Black Diamond";
     std::string m_productName = "Vector Helmet";
 };
-TEST_F(GearInventoryTest, WhenAdditionOfNovelGearIsRequestedGearIsAddedToInventory) 
+TEST_F(GearInventoryTest, WhenAdditionOfNovelGearIsRequestedGearIsAddedToInventory)
 {
     // create new piece of gear to add to inventory and save description
     auto newGear = std::make_unique<Gear>(m_manufacturerName, m_productName);
