@@ -131,6 +131,13 @@ TEST_F(GearInventoryTest, WhenRemovalOfGearWithMultipleCopiesIsRequestedGearCoun
     EXPECT_EQ(expectedSummary, returnedSummary);
 }
 
+TEST_F(GearInventoryTest, WhenRemovalOfGearNotInInventoryIsRequestedExceptionIsThrown)
+{
+    auto gearToRemove = std::make_unique<Gear>(m_manufacturerName, m_productName);
+
+    EXPECT_ANY_THROW(m_gearInventory->remove(std::move(gearToRemove)));
+}
+
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);
     RUN_ALL_TESTS();
